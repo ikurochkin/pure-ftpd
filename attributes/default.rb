@@ -99,7 +99,6 @@ default['pure-ftpd']['options']['MinUID'] = nil
 default['pure-ftpd']['options']['PassivePortRange'] = nil
 default['pure-ftpd']['options']['PIDFile'] = nil
 default['pure-ftpd']['options']['PerUserLimits'] = nil
-default['pure-ftpd']['options']['PureDB'] = nil
 default['pure-ftpd']['options']['Quota'] = nil
 default['pure-ftpd']['options']['Umask'] = nil
 default['pure-ftpd']['options']['UserBandwidth'] = nil

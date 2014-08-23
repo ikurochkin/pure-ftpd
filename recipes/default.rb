@@ -81,6 +81,7 @@ if database_backend?
     user 'root'
     group 'root'
     mode '0600'
+    not_if { node['pure-ftpd']['auth']['puredb']['enabled'] }
   end
 end
 
